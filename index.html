@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#590425" />
+    <title>Rentcarhouse — Premium Car Rental in Tashkent</title>
+    <meta
+      name="description"
+      content="Rentcarhouse is a premium car rental service in Tashkent offering reliable and comfortable vehicles for daily rental. Open 24/7."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header" data-header>
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="Rentcarhouse home">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">Rentcarhouse</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-nav-toggle>
+            <span class="nav__toggleLines" aria-hidden="true"></span>
+            <span class="sr-only">Open menu</span>
+          </button>
+
+          <div class="nav__menu" id="nav-menu" data-nav-menu>
+            <a class="nav__link" href="#about">About</a>
+            <a class="nav__link" href="#cars">Cars</a>
+            <a class="nav__link" href="#how">How to rent</a>
+            <a class="nav__link" href="#contact">Contact</a>
+            <a class="nav__cta" href="tel:+998337726333">Call</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-label="Hero">
+        <div class="container hero__grid">
+          <div class="hero__copy reveal">
+            <p class="eyebrow">Tashkent • Open 24/7</p>
+            <h1 class="hero__title">Premium Car Rental in Tashkent</h1>
+            <p class="hero__subtitle">
+              Rent comfortable and premium cars 24/7 in Tashkent.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="tel:+998337726333">Call Now</a>
+              <a class="btn btn--ghost" href="https://t.me/rentcarhouse" target="_blank" rel="noreferrer">
+                Write on Telegram
+              </a>
+            </div>
+
+            <div class="hero__trust">
+              <div class="trustItem">
+                <span class="trustItem__dot" aria-hidden="true"></span>
+                <span class="trustItem__text">Clean, well-maintained fleet</span>
+              </div>
+              <div class="trustItem">
+                <span class="trustItem__dot" aria-hidden="true"></span>
+                <span class="trustItem__text">Fast booking via phone or Telegram</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__media reveal" aria-hidden="true">
+            <div class="heroCard">
+              <picture>
+                <img
+                  class="heroImage"
+                  src="./assets/hero-car.svg"
+                  width="980"
+                  height="560"
+                  alt=""
+                  loading="eager"
+                  decoding="async"
+                />
+              </picture>
+              <div class="heroCard__shine" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-label="About Rentcarhouse">
+        <div class="container">
+          <div class="sectionHead reveal">
+            <h2 class="sectionTitle">About Rentcarhouse</h2>
+            <p class="sectionLead">
+              Rentcarhouse is a premium car rental service in Tashkent offering reliable and comfortable vehicles for daily rental.
+              Our service is available 24 hours a day and provides a wide range of cars — from economy to premium electric vehicles.
+            </p>
+          </div>
+
+          <ul class="features reveal" role="list">
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">✔</span>
+              <span>24/7 service</span>
+            </li>
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">✔</span>
+              <span>Premium car fleet</span>
+            </li>
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">✔</span>
+              <span>Easy booking via phone or Telegram</span>
+            </li>
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">✔</span>
+              <span>Cars in excellent condition</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--tint" id="cars" aria-label="Cars and prices">
+        <div class="container">
+          <div class="sectionHead reveal">
+            <h2 class="sectionTitle">Cars &amp; Prices</h2>
+            <p class="sectionLead">Daily pricing. Quick booking — call to rent.</p>
+          </div>
+
+          <div class="grid reveal">
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="Nexia 3" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">Nexia 3</h3>
+                <p class="carCard__price">400 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="Gentra" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">Gentra</h3>
+                <p class="carCard__price">500 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="Tracker" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">Tracker</h3>
+                <p class="carCard__price">700 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="Captiva 4" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">Captiva 4</h3>
+                <p class="carCard__price">800 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="BYD Chazor" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">BYD Chazor</h3>
+                <p class="carCard__price">1 000 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="Malibu 2 (2.4)" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">Malibu 2 (2.4)</h3>
+                <p class="carCard__price">1 000 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="Malibu Premier" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">Malibu Premier</h3>
+                <p class="carCard__price">1 200 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="Equinox" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">Equinox</h3>
+                <p class="carCard__price">1 200 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="BYD Champion" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">BYD Champion</h3>
+                <p class="carCard__price">1 200 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="BYD Song Plus" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">BYD Song Plus</h3>
+                <p class="carCard__price">1 200 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="BYD Han" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">BYD Han</h3>
+                <p class="carCard__price">1 500 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="Zeekr 007" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">Zeekr 007</h3>
+                <p class="carCard__price">2 000 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+
+            <article class="carCard">
+              <img class="carCard__img" src="./assets/car-card.svg" width="720" height="360" alt="BMW i4 M50 M-Performance" loading="lazy" decoding="async" />
+              <div class="carCard__body">
+                <h3 class="carCard__title">BMW i4 M50 M-Performance</h3>
+                <p class="carCard__price">2 000 000 so'm <span class="carCard__per">/ day</span></p>
+                <a class="btn btn--small" href="tel:+998337726333">Call to rent</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="how" aria-label="How to rent">
+        <div class="container">
+          <div class="sectionHead reveal">
+            <h2 class="sectionTitle">How To Rent</h2>
+            <p class="sectionLead">Simple, fast, and clear.</p>
+          </div>
+
+          <ol class="steps reveal">
+            <li class="step">
+              <div class="step__icon" aria-hidden="true">
+                <span class="iconCircle">1</span>
+              </div>
+              <div class="step__body">
+                <h3 class="step__title">Choose a car</h3>
+                <p class="step__text">Pick a model from the list and confirm availability.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step__icon" aria-hidden="true">
+                <span class="iconCircle">2</span>
+              </div>
+              <div class="step__body">
+                <h3 class="step__title">Contact via phone or Telegram</h3>
+                <p class="step__text">Quick booking — we reply fast, 24/7.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step__icon" aria-hidden="true">
+                <span class="iconCircle">3</span>
+              </div>
+              <div class="step__body">
+                <h3 class="step__title">Pick up the car</h3>
+                <p class="step__text">Receive the keys and enjoy a premium ride.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="contact" aria-label="Contact">
+        <div class="container">
+          <div class="contactCard reveal">
+            <div class="contactCard__copy">
+              <h2 class="sectionTitle sectionTitle--light">Contact Rentcarhouse</h2>
+              <div class="contactGrid">
+                <div class="contactItem">
+                  <p class="contactItem__label">Phone</p>
+                  <p class="contactItem__value">
+                    <a class="linkLight" href="tel:+998337726333">+998 33 772 63 33</a>
+                  </p>
+                </div>
+                <div class="contactItem">
+                  <p class="contactItem__label">Location</p>
+                  <p class="contactItem__value">Tashkent, Yashnabad District<br />Mahtumquli Street 119</p>
+                </div>
+                <div class="contactItem">
+                  <p class="contactItem__label">Working hours</p>
+                  <p class="contactItem__value">Open 24/7</p>
+                </div>
+              </div>
+
+              <div class="contactActions">
+                <a class="btn btn--light" href="tel:+998337726333">📞 Call</a>
+                <a class="btn btn--lightOutline" href="https://t.me/rentcarhouse" target="_blank" rel="noreferrer">💬 Telegram</a>
+              </div>
+            </div>
+
+            <div class="contactCard__accent" aria-hidden="true">
+              <div class="accentPill"></div>
+              <div class="accentRing"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="map" aria-label="Map">
+        <div class="container">
+          <div class="sectionHead reveal">
+            <h2 class="sectionTitle">Map</h2>
+            <p class="sectionLead">Find us in Tashkent.</p>
+          </div>
+
+          <div class="mapFrame reveal" role="region" aria-label="Google Maps location">
+            <iframe
+              title="Rentcarhouse location map"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Mahtumquli%20Street%20119%20Tashkent&output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <p class="footer__title">Rentcarhouse</p>
+          <p class="footer__text">Premium car rental in Tashkent<br />Open 24 hours</p>
+        </div>
+        <p class="footer__copy">© <span id="year"></span> Rentcarhouse. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
